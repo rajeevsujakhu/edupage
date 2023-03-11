@@ -1,0 +1,129 @@
+@media (max-width: 480px){
+    header{
+        nav{
+            .btn{
+                display: none;
+            }
+        }
+        .banner{
+            padding: 60px 0 !important;
+            h1{
+                font-size: 28px!important;
+            }
+            p{
+                margin: 20px 0 !important;
+            }
+            .banner-image{
+                margin: 0 50px 0 -50px !important;
+            }
+        }
+    }
+    .FAQ-QUESTION .accordion{
+        margin: 0px !important;
+    }
+    footer{
+        .student,.lady,.royal,.box1{
+            display: none;
+        }
+        .tittle3{
+            font-size: 24px !important;
+        }
+    }
+}
+@media(min-width: 481px) and (max-width: 768px){
+    header{
+        nav{
+            .btn{
+                order: 1;
+                margin-left: auto;
+                line-height: 45px !important;
+                padding: 0 20px !important;
+            }
+            .navbar-toggler{
+                order: 2;
+            }
+        }
+        .banner-image{
+            margin: 0 30px 0 -120px !important;
+        }
+    }
+    .course-layout{
+        .row{
+            .col-md-6{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .FAQ-QUESTION .accordion{
+        margin: 0px !important;
+    }
+    footer{
+        .student,.lady,.royal,.box1{
+            display: none;
+        }
+        .tittle3{
+            font-size: 24px !important;
+        }
+    }
+}
+@media(min-width: 769px) and (max-width: 992px){
+    header{
+        nav{
+            .btn{
+                order: 1;
+                margin-left: auto;
+                line-height: 45px !important;
+                padding: 0 20px !important;
+            }
+            .navbar-toggler{
+                order: 2;
+            }
+        }
+        .banner-image{
+            margin: 0 -20px 0 -180px !important;
+        }
+    }
+    .course-layout{
+        .row{
+            .col-md-6{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .FAQ-QUESTION .accordion{
+        margin: 0px !important;
+    }
+    footer{
+        .student,.lady,.royal,.box1{
+            display: none;
+        }
+        .tittle3{
+            font-size: 24px !important;
+        }
+    }
+}
+@media(min-width: 993px) and (max-width: 1200px){
+    header{
+        .banner-image{
+            margin: -40px -40px 0 -160px !important;
+        }
+    }
+    .course-layout{
+        .row{
+            .col-md-6{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .FAQ-QUESTION .accordion{
+        margin: 0px !important;
+    }
+    footer{
+        .student,.lady,.royal,.box1{
+            display: none;
+        }
+        .tittle3{
+            font-size: 24px !important;
+        }
+    }
+}

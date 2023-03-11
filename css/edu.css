@@ -1,0 +1,582 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  header nav .btn {
+    display: none;
+  }
+  header .banner {
+    padding: 60px 0 !important;
+  }
+  header .banner h1 {
+    font-size: 28px !important;
+  }
+  header .banner p {
+    margin: 20px 0 !important;
+  }
+  header .banner .banner-image {
+    margin: 0 50px 0 -50px !important;
+  }
+  .FAQ-QUESTION .accordion {
+    margin: 0px !important;
+  }
+  footer .student, footer .lady, footer .royal, footer .box1 {
+    display: none;
+  }
+  footer .tittle3 {
+    font-size: 24px !important;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  header nav .btn {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-left: auto;
+    line-height: 45px !important;
+    padding: 0 20px !important;
+  }
+  header nav .navbar-toggler {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  header .banner-image {
+    margin: 0 30px 0 -120px !important;
+  }
+  .course-layout .row .col-md-6 {
+    margin-bottom: 20px;
+  }
+  .FAQ-QUESTION .accordion {
+    margin: 0px !important;
+  }
+  footer .student, footer .lady, footer .royal, footer .box1 {
+    display: none;
+  }
+  footer .tittle3 {
+    font-size: 24px !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  header nav .btn {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-left: auto;
+    line-height: 45px !important;
+    padding: 0 20px !important;
+  }
+  header nav .navbar-toggler {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  header .banner-image {
+    margin: 0 -20px 0 -180px !important;
+  }
+  .course-layout .row .col-md-6 {
+    margin-bottom: 20px;
+  }
+  .FAQ-QUESTION .accordion {
+    margin: 0px !important;
+  }
+  footer .student, footer .lady, footer .royal, footer .box1 {
+    display: none;
+  }
+  footer .tittle3 {
+    font-size: 24px !important;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  header .banner-image {
+    margin: -40px -40px 0 -160px !important;
+  }
+  .course-layout .row .col-md-6 {
+    margin-bottom: 20px;
+  }
+  .FAQ-QUESTION .accordion {
+    margin: 0px !important;
+  }
+  footer .student, footer .lady, footer .royal, footer .box1 {
+    display: none;
+  }
+  footer .tittle3 {
+    font-size: 24px !important;
+  }
+}
+.txt-hover:hover {
+  color: #525fe1;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+.heading h1 {
+  font-weight: 800;
+}
+.heading span {
+  color: #525fe1;
+}
+
+.tittle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+.tittle a {
+  color: #231F40;
+  text-decoration: none;
+}
+
+header {
+  background: url(https://eduvibe.react.devsvibe.com/static/media/landing-page-banner.0fa3637a343b252762dc.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header nav {
+  height: 80px;
+}
+header nav .navbar-toggler {
+  margin-right: 20px;
+}
+header nav .navbar-brand img {
+  max-height: 35px;
+}
+header nav .navbar-nav .nav-link.active {
+  color: #525fe1;
+}
+header nav .nav-link {
+  color: #231F40;
+}
+header nav ul li {
+  padding: 0 20px;
+}
+header nav ul li a {
+  font-size: 16px;
+}
+header nav .btn {
+  background-color: #525fe1;
+  border-color: #525fe1;
+  padding: 0 25px;
+  line-height: 50px;
+  font-size: 16px;
+}
+header nav .btn:hover {
+  background-color: #231F40;
+  border-color: #231F40;
+}
+header .banner {
+  padding: 120px 0 0 0;
+}
+header .banner h1 {
+  font-size: 56px;
+  font-weight: 800;
+}
+header .banner p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 50px 0;
+  opacity: 60%;
+}
+header .banner .l {
+  background-color: #525fe1;
+  border-color: #525fe1;
+  padding: 0 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 60px;
+  margin-right: 20px;
+}
+header .banner .l:hover {
+  background-color: #231F40;
+  border-color: #231F40;
+}
+header .banner .r {
+  padding: 0 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #525fe1;
+  line-height: 60px;
+}
+header .banner .r:hover {
+  color: #FA9749;
+  background-color: #fff;
+  border-color: #fff;
+}
+header .banner .banner-image {
+  margin-top: -100px;
+  margin-left: -160px;
+  margin-right: -115px;
+}
+
+.homepages {
+  padding: 130px 0;
+}
+.homepages .row .thumbnail {
+  position: relative;
+}
+.homepages .row .thumbnail img {
+  background-color: #fff;
+  border: 0px;
+  border-radius: 10px;
+  padding: 5px;
+  -webkit-box-shadow: 0 8px 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 8px 35px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.homepages .row .thumbnail .hover-box {
+  position: absolute;
+  left: 32%;
+  top: 42%;
+  display: none;
+}
+.homepages .row .thumbnail .hover-box .btn {
+  background-color: #525fe1;
+  border-color: #525fe1;
+  line-height: 50px;
+  padding: 0 24px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.homepages .row .thumbnail .hover-box .btn:hover {
+  background-color: #231F40;
+  border-color: #231F40;
+}
+.homepages .row .thumbnail:hover .hover-box {
+  display: block;
+}
+.homepages .row .thumbnail:hover img {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+.course-layout {
+  background: url(https://eduvibe.react.devsvibe.com/static/media/landing-page-courses.b38067b2d33f871d4083.jpg);
+  padding: 130px 0;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.course-layout .row img {
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 8px 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 8px 35px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+
+.awesome-features {
+  padding: 130px 0;
+}
+.awesome-features .row {
+  padding-top: 65px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.awesome-features .row .icon img {
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 8px 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 8px 35px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+}
+.awesome-features .row .tittle2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+
+.INNER-PAGES {
+  padding: 130px 0;
+  background: url(https://eduvibe.react.devsvibe.com/static/media/landing-page-courses.b38067b2d33f871d4083.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.INNER-PAGES .slick-slider .autoplay img {
+  width: 100%;
+  padding: 20px;
+}
+
+.FAQ-QUESTION {
+  padding: 130px 0;
+}
+.FAQ-QUESTION .accordion {
+  margin: 0 250px;
+  padding-top: 20px;
+}
+.FAQ-QUESTION .accordion .accordion-item {
+  border: none;
+  max-width: 760px;
+  padding: 15px 0;
+}
+.FAQ-QUESTION .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  color: #000;
+}
+.FAQ-QUESTION .accordion .accordion-item .accordion-header .accordion-button {
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 31px 69px 31px 32px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+.FAQ-QUESTION .accordion .accordion-item .accordion-body {
+  padding: 0 31px 35px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+footer {
+  background-color: #231F40;
+  padding: 130px 0;
+}
+footer .container {
+  position: relative;
+}
+footer .container .row {
+  text-align: center;
+}
+footer .container .row .tittle3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 70px;
+}
+footer .container .row .button2 .left-button {
+  border: 0;
+  background-color: #525FE1;
+  border-radius: 5px;
+  padding: 0 30px;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+footer .container .row .button2 .left-button:hover {
+  background-color: #fff;
+  color: #FA9749;
+}
+footer .container .row .button2 .right-button {
+  border: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0 30px;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #525FE1;
+  text-decoration: none;
+}
+footer .container .row .button2 .right-button:hover {
+  color: #FA9749;
+}
+footer .container .box1 {
+  background-color: #fff;
+  max-width: 193px;
+  min-width: 193px;
+  border-radius: 5px;
+  padding: 20px;
+  position: absolute;
+  bottom: -117px;
+  left: -3px;
+}
+footer .container .box1 .content .tittle4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+footer .container .box1 .content .time {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+footer .container .box1 .box2 {
+  padding: 20px 0 10px 0;
+}
+footer .container .box1 .box2 .join {
+  background-color: #f86f03;
+  border: 0;
+  border-radius: 5px;
+  height: 36px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 13px;
+  color: #fff;
+  text-decoration: none;
+}
+footer .container .box1 .box2 .join:hover {
+  background-color: #231F40;
+}
+footer .container .lady {
+  position: absolute;
+  right: 120px;
+  bottom: -128px;
+}
+footer .container .lady img {
+  border-radius: 4px;
+  height: 185px;
+  width: 145px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+footer .container .royal {
+  position: absolute;
+  right: -89px;
+  top: -83px;
+}
+footer .container .royal img {
+  border-radius: 8px 0 0 8px;
+  border: 0;
+}
+footer .container .student {
+  background-color: #fff;
+  position: absolute;
+  left: 50px;
+  top: -46px;
+  border-radius: 8px;
+}
+footer .container .student .inner {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 15px;
+}
+footer .container .student .inner .icon {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(251, 124, 86, 0.5);
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 10px;
+  width: 40px;
+  color: #fff;
+}
+footer .container .student .inner .content .tittle {
+  margin: 0;
+  color: #f86f03;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+footer .container .student .inner .content .subtitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.stickyy {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  height: 80px;
+  width: 100%;
+  -webkit-animation: ss 0.8s linear;
+          animation: ss 0.8s linear;
+  z-index: 99999;
+  -webkit-box-shadow: 1px 0px 8px -6px;
+          box-shadow: 1px 0px 8px -6px;
+}
+
+.arrow {
+  background: transparent;
+  border: 2px solid #f8e3c3;
+  border-radius: 50%;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  display: none;
+  z-index: 99999999;
+  -webkit-animation: sss 0.4s linear;
+          animation: sss 0.4s linear;
+}
+.arrow .fa {
+  color: #f86f03;
+  font-size: 23px;
+}
+
+@-webkit-keyframes ss {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes ss {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+@-webkit-keyframes sss {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+@keyframes sss {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}/*# sourceMappingURL=edu.css.map */
